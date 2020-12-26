@@ -16,7 +16,7 @@ firebase.initializeApp(firebaseConfig);
 firebase.analytics();
 
 // Initialising storage
-const storage = firebase.storage();
+const projectStorage = firebase.storage();
 const firestore = firebase.firestore();
 
-export default { storage, firestore };
+export default projectStorage;
