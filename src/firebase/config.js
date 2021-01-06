@@ -13,7 +13,6 @@ var firebaseConfig = {
 };
 // Initialize Firebase
 firebase.initializeApp(firebaseConfig);
-firebase.analytics();
 
 // Initialising storage
 const projectStorage = firebase.storage();
